@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "09588078-358b-488c-b0ef-ed7659208c72",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23666633"
+	},
+	"item": [
+		{
+			"name": "Assignment 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\": \"ab\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8081/assignments/permutations",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"assignments",
+						"permutations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assignment 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\": [1,2,2,3,3,3,4,3,3,3,2,2,1]  \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8081/assignments/odd",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"assignments",
+						"odd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Assignment 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"input\": [\":)\", \";(\", \";}\", \":-D\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8081/assignments/count-smiley",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"assignments",
+						"count-smiley"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
